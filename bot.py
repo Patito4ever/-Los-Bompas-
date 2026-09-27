@@ -15,7 +15,8 @@ user_messages = {}
 @bot.event
 async def on_ready():
     print(f"¡{bot.user.name} está conectado y listo 24/7!")
-    await bot.change_presence(activity=discord.Game(name="Moderando el servidor | !top"))
+    # Aquí puedes poner que está "Jugando Roblox Rivals"
+    await bot.change_presence(activity=discord.Game(name="Roblox Rivals ⚔️ | !top"))
 
 # --- 1. MENSAJE DE BIENVENIDA ---
 @bot.event
