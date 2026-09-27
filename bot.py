@@ -87,7 +87,7 @@ async def moderation_error(ctx, error):
         await ctx.send("❌ Ocurrió un error al ejecutar el comando.")
 
 # Ejecutar el bot leyendo el Token de forma segura desde las variables del sistema
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("MTU1MzgwOTU5MTk2MjQ0Mzg3Nw.GtGFbs.hMdRXyYFT9GzEWRk2aubwIZa3mu3orcrsKgHqU")
 if not TOKEN:
     print("⚠️ ADVERTENCIA: No se encontró la variable de entorno 'DISCORD_TOKEN'. Asegúrate de configurarla en tu panel.")
 else:
